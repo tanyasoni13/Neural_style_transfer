@@ -14,6 +14,6 @@ Neural style transfer is an optimization technique used to take three images, a 
 - PIL (Python Imaging Library)
 - matplotlib
 
-##References
+## References
 - A Neural Algorithm of Artistic Style
 - PyTorch Neural Transfer Tutorial
