@@ -4,8 +4,7 @@ This project demonstrates neural style transfer, a technique for applying the ar
 
 ## Overview
 
-Neural style transfer is an optimization technique used to take three images, a content image, a style reference image, and the input image you want to transform. The goal is to manipulate the input image so that it matches the content of the content image and the style of the style reference image.
-
+In NST, the VGG19 network is used to extract features from two images: a content image and a style image. The VGG19 network, trained on a vast dataset, captures high-level content and style features across multiple layers. By minimizing a loss function that combines content loss and style loss, the algorithm iteratively updates a generated image to resemble the content of the first image with the style of the second.
 ## Requirements
 
 - Python 3.x
